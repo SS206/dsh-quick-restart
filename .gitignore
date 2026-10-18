@@ -1,0 +1,18 @@
+# 回滚备份：包含从安装包提取的原始文件片段，不入库
+backup/
+
+# 依赖与构建产物
+node_modules/
+*.log
+
+# 编辑器与系统文件
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+*.swp
+.DS_Store
+
+# 临时文件
+*.tmp
+*.bak
